@@ -16,6 +16,11 @@ body {
   margin: 1rem auto;
 }
 
+.movie-card:hover{
+  box-shadow:5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
@@ -69,4 +74,17 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+.active-link{
+  color: white;
+  background-color:grey;
+ 
+  border-radius: 8px;
 }
